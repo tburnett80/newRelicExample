@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrameworkEx", "FrameworkEx\FrameworkEx.csproj", "{C64C656C-C0F6-4855-828D-9EB8162CDBC6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7474EFED-B1BD-4210-A16A-68352C9F8394}"
+	ProjectSection(SolutionItems) = preProject
+		Dockerfile = Dockerfile
+		RunExample.ps1 = RunExample.ps1
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C64C656C-C0F6-4855-828D-9EB8162CDBC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C64C656C-C0F6-4855-828D-9EB8162CDBC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C64C656C-C0F6-4855-828D-9EB8162CDBC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C64C656C-C0F6-4855-828D-9EB8162CDBC6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5EDC99D8-E070-49EB-A40C-E5DF03C1FD8E}
+	EndGlobalSection
+EndGlobal

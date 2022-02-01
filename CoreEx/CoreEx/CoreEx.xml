@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CoreEx</name>
+    </assembly>
+    <members>
+        <member name="M:CoreEx.Controllers.HealthController.GetV1">
+            <summary>
+            This is a sample endpoint to use for testing.
+            </summary>
+            <returns>Sample Json Object</returns>
+        </member>
+        <member name="M:CoreEx.Controllers.WeatherForecastController.Get">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:CoreEx.ServiceCollectionExtensions.ConfigureLogging(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Will setup the Xtra logging.
+            </summary>
+            <param name="services"></param>
+            <param name="config"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CoreEx.ServiceCollectionExtensions.ConfigureAutoMapper(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Wires up the automapper configurations by loading profile in assemblies. 
+            </summary>
+            <param name="services"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CoreEx.ServiceCollectionExtensions.BootstrapSwagger(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            Sets up Swagger for non prod environments.
+            </summary>
+            <param name="services"></param>
+            <param name="config"></param>
+            <param name="env"></param>
+            <returns></returns>
+        </member>
+        <member name="T:CoreEx.Startup">
+            <inheritdoc />
+        </member>
+        <member name="M:CoreEx.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <inheritdoc />
+        </member>
+        <member name="P:CoreEx.Startup.Configuration">
+            <inheritdoc />
+        </member>
+        <member name="P:CoreEx.Startup.Env">
+            <inheritdoc />
+        </member>
+        <member name="M:CoreEx.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <inheritdoc />
+        </member>
+        <member name="M:CoreEx.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
