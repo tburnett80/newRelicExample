@@ -4,7 +4,7 @@ Write-Host "### Installing New Relic Agent"
 Write-Host "#####################################################"
 Write-Host " "
 
-$fileName = 'install_nr.ps1' `
+$fileName = 'install_nr.ps1'; `
     Write-Host "## Downloading New Relic Agent"; `
     (New-Object System.Net.WebClient).DownloadFile("https://download.newrelic.com/install/newrelic-cli/scripts/install.ps1", $fileName); `
     Write-Host "## Installing New Relic Agent"; `
