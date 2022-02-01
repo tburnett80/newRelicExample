@@ -55,6 +55,8 @@ Invoke-Expression -Command C:\src\TaskScripts\1809\setup_docker_host.ps1
 Write-Host " "
 
 Write-Host "#### Installing Monitoring Agent..."
+[Environment]::SetEnvironmentVariable('NRIA_ENABLE_PROCESS_METRICS', 'true', 'Machine');
+Update-SessionEnvironment
 Invoke-Expression -Command C:\src\TaskScripts\1809\setup_newrelic_agent.ps1
 Write-Host " "
 
