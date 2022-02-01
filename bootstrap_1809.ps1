@@ -55,10 +55,6 @@ Invoke-Expression -Command C:\src\TaskScripts\1809\setup_docker_host.ps1
 Write-Host " "
 
 Write-Host "#### Installing Monitoring Agent..."
-#Write-Host "## Setting Environment Variables...";
-#[Environment]::SetEnvironmentVariable('NEW_RELIC_ACCOUNT_ID', '', 'Machine');
-#[Environment]::SetEnvironmentVariable('NEW_RELIC_API_KEY', '', 'Machine');
-Update-SessionEnvironment
 Invoke-Expression -Command C:\src\TaskScripts\1809\setup_newrelic_agent.ps1
 Write-Host " "
 
